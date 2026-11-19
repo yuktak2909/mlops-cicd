@@ -18,4 +18,4 @@ def test_model_accuracy():
     Unit test to verify that the trained model achieves an accuracy >= 0.80.
     """
     accuracy = train_model()
-    assert accuracy >= 0.80
+    assert accuracy >= 1.01
